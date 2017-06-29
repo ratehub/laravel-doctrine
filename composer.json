@@ -14,10 +14,17 @@
       "name": "Patrick Brouwers",
       "email": "patrick@maatwebsite.nl"
     }
+  ],  
+  "repositories": [
+     {
+       "type": "git",
+       "url": "https://github.com/ratehub/doctrine2.git"
+     }
   ],
+  
   "require": {
     "php": ">=5.6.4",
-    "doctrine/orm": "2.5.*",
+    "doctrine/orm": "dev-master",
     "illuminate/auth": "5.4.*",
     "illuminate/console": "5.4.*",
     "illuminate/container": "5.4.*",
